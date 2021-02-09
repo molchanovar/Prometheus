@@ -29,4 +29,4 @@ gpgkey=https://packages.grafana.com/gpg.key
 sslverify=1
 sslcacert=/etc/pki/tls/certs/ca-bundle.crt
 ```
-Установить `yum isntall grafana` и запустить sudo `systemctl start grafana-server`
+Установить `yum isntall grafana` и запустить `systemctl start grafana-server`
