@@ -1,6 +1,22 @@
 # Prometheus
 SystemMonitor Prometheus+Grafana
 
+### Мониторинг localhost 
+
+Скачиваем prometheus / node_exporter / grafana
+```
+wget https://github.com/prometheus/prometheus/releases/download/v2.24.1/prometheus-2.24.1.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.1.0/node_exporter-1.1.0.linux-amd64.tar.gz
+wget https://dl.grafana.com/oss/release/grafana-7.4.1.linux-amd64.tar.gz
+```
+Распаковываем: 
+```
+tar zxvf prometheus-*.linux-amd64.tar.gz 
+tar zxvf node_exporter-*.linux-amd64.tar.gz 
+tar zxvf grafana-*.linux-amd64.tar.gz
+```
+
+
 Быстрый старт Prometheus: 
 ```
 wget https://github.com/prometheus/prometheus/releases/download/v2.24.1/prometheus-2.24.1.linux-amd64.tar.gz
