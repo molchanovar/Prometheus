@@ -16,6 +16,7 @@ tar zxvf node_exporter-*.linux-amd64.tar.gz
 tar zxvf grafana-*.linux-amd64.tar.gz
 ```
 
+Запуск `./prometheus --config.file=prometheus.yml` + `./node_exporter` + `./grafana-server`
 
 Быстрый старт Prometheus: 
 ```
