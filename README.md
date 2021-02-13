@@ -11,7 +11,9 @@ SystemMonitor Prometheus+Grafana
 
 Параметры графиков (на **PromQL**) в файле **Graphs**
 
+![alt tag](https://disk.yandex.ru/i/XowHTRs8NJ3jgA "Скрин")​
 
+https://disk.yandex.ru/i/XowHTRs8NJ3jgA
 
 ### Быстрый старт Prometheus: 
 
