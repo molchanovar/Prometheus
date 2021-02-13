@@ -4,13 +4,16 @@ SystemMonitor Prometheus+Grafana
 ### Мониторинг localhost 
 
 Реализован мониторинг локального хоста на **Prometheus** (сбор метрик **node_exporter** + графики на **Grafana**)
+
+
 Вывод графиков: загрузка CPU, использование RAM, показатели сети и свободное место на диске. 
+
 
 Параметры графиков (на **PromQL**) в файле **Graphs**
 
 
 
-#### Быстрый старт Prometheus: 
+### Быстрый старт Prometheus: 
 
 Скачиваем prometheus / node_exporter / grafana
 ```
